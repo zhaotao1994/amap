@@ -164,7 +164,7 @@ public class District {
             // 请求URL
             String url = "http://restapi.amap.com/v3/config/district";
             // 请求参数
-            Map<String, String> params = new HashMap<>();
+            Map<String, String> params = new HashMap<String, String>();
             // 高德Key
             params.put("key", "96f7910fe34fa34bf5f976b3e9ebe87c");
             // 设置显示下级行政区级数，可选值：0、1、2、3
